@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ccf19e; /* Light green background */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center all elements horizontally */
+}
+
+/* Header Container for Image and Titles */
+.header-container {
+    display: flex; /* Use flexbox for side-by-side layout */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 20px; /* Space below header */
+}
+
+/* Image Styling */
+img {
+    width: 150px; /* Set image width */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between image and text */
+}
+
+/* Headings Styling */
+h1 {
+    font-size: 2.5em; /* Large heading size */
+    color: #000000; /* Dark green color */
+    margin: 0; /* Remove margin */
+}
+
+h2 {
+    font-size: 1.5em; /* Sub-heading size */
+    color: #000000; /* Dark color */
+    margin: 5px 0; /* Margin around sub-heading */
+}
+
+/* Content Box */
+.content-box {
+    background-color: rgb(225, 244, 215); /* White background */
+    border: 1px solid #ccc; /* Light grey border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Inner padding */
+    margin: 20px; /* Margin around content box */
+    width: 80%; /* Width of the content box */
+    max-width: 800px; /* Max width of the box */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: left; /* Left align text within content box */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center; /* Center footer text */
+    margin-top: 20px; /* Space above footer */
+    width: 100%; /* Full width for footer */
+}
+
+a {
+    color: #28592F; /* Dark green link color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+.nav-links {
+    max-width: 300px; /* limit width */
+    margin: 0px auto; /* center the box */
+}
+
+.nav-links ul {
+    list-style-type: disc; /* use bullet points */
+    padding: 0; /* indent bullets */
+
+}
+
+.nav-links li {
+    margin: 10px 0; /* spacing between items */
+}
+
+.nav-links a {
+    text-decoration: underline; /* remove underline from links */
+    color: #000000; /* dark text color */
+    font-weight: bold; /* bold text */
+}
+
+
+

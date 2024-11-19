@@ -1,0 +1,44 @@
+/*selector
+{
+
+}
+element
+{
+
+}
+*/
+body
+{
+    background-color: aquamarine;
+}
+    p {
+    background-color:pink ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#p1{
+    background-color: aqua;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: small;
+    line-height:100%;
+    text-decoration: double;
+    text-shadow: 0cqmax;
+    
+}
+#p2{
+    background-color: yellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    line-height:80%;
+    text-decoration:line-through;
+    text-shadow: 0cqmax;
+}
+#p3{
+    background-color:yellowgreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-small;
+    line-height:500%;
+    text-decoration:overline;
+}
+.common{
+    color: green;
+}

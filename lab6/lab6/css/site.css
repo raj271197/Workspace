@@ -1,0 +1,172 @@
+/* Base Styles (Desktop) */
+
+body {
+    font-family: Verdana, Arial, sans-serif;
+    background-color: darkblue;
+}
+
+#wrapper {
+    background-color: #b3c7e6;
+    width: 80%;
+    margin: auto;
+    min-width: 850px;
+}
+
+#leftcolumn {
+    float: left;
+    width: 150px;
+    
+}
+/* Style links as buttons with pink border */
+#leftcolumn nav a {
+    display: inline-block; /* Makes the links appear as buttons */
+    padding: 10px 15px; /* Adds spacing inside the buttons */
+    margin: 5px; /* Adds space between buttons */
+    color: pink; /* Text color */
+    text-decoration: none; /* Removes underline from links */
+    border: 2px solid pink; /* Adds a pink border to make it look like a button */
+    border-radius: 5px; /* Rounds the corners */
+    text-align: center; /* Centers the text */
+    font-weight: bold; /* Makes the text bold */
+
+}
+
+/* Hover effect */
+#leftcolumn nav a:hover {
+    background-color: pink; /* Adds a pink fill on hover */
+    color: white; /* Changes text to white on hover */
+}
+
+#rightcolumn {
+    margin-left: 155px;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #869dc7;
+    color: #00005D;
+    font-size: 130%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.header-image {
+    width: 100px; 
+    height: auto;
+    margin-right: 20px; 
+}
+
+h2 {
+    color: #869dc7;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    padding: 20px 20px 0 20px;
+}
+
+#floatright {
+    margin: 10px;
+    float: right;
+}
+
+footer {
+    font-size: 70%;
+    text-align: center;
+    clear: right;
+    padding-bottom: 20px;
+}
+
+nav a {
+    margin: 30px;
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #869dc7;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: #6b8ab3;
+}
+
+/* Tablet View  */
+@media (max-width: 1024px) and (min-width: 768px) {
+    #wrapper {
+        width: 90%;
+        min-width: 700px;
+    }
+
+    #leftcolumn {
+        width: 120px;
+    }
+
+    #rightcolumn {
+        margin-left: 125px;
+    }
+
+    header {
+        font-size: 130%;
+        padding: 10px;
+    }
+
+    nav a {
+        padding: 8px;
+        margin: 10px;
+    }
+
+    #floatright {
+        width: 200px;
+        height: auto;
+    }
+}
+
+/* Mobile View */
+@media (max-width: 767px) {
+    #wrapper {
+        width: 100%;
+        min-width: unset;
+    }
+
+    #leftcolumn {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    #rightcolumn {
+        margin-left: 0;
+    }
+
+    nav a {
+        margin: 5px 0;
+        padding: 10px;
+        display: inline-block;
+        width: 90%;
+        text-align: center;
+    }
+
+    header {
+        text-align: center;
+        font-size: 120%;
+        padding: 10px;
+    }
+
+    #floatright {
+        display: block;
+        margin: 10px auto;
+        width: 80%;
+        height: auto;
+    }
+
+    footer {
+        padding: 15px;
+    }
+}

@@ -1,0 +1,70 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+section {
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 10px 0;
+}
+.shadow{
+    box-shadow: #6699ff;
+    box-decoration-break: slice;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    color: #555;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 10px 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0056b3;
+}
+
+section h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+/* Snow Fever Ski School styles */
+.ski-school {
+
+    float: left;
+    text-align: left;
+    background-color: #6699ff;
+    color: white;
+}
+
+.ski-school a {
+    color: white;
+    font-weight: bold;
+}
+
+.ski-school address {
+    font-style: normal;
+}

@@ -1,0 +1,73 @@
+/* Font Styles */
+h1, nav, #copyright {
+    font-family: "Century Gothic", serif;
+    text-align: center; 
+}
+
+h2, h3, dt {
+    font-family: "Gabriola", sans-serif;
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+}
+
+h1 {
+    font-size: 3em; 
+    font-weight: 500; 
+    line-height: 400%; 
+}
+
+h2 {
+    font-size: 2em; 
+    color: rgb(35, 102, 12); 
+}
+
+dt {
+    font-weight: bold;
+}
+
+footer {
+    font-size: smaller; 
+    color: #eee; 
+}
+
+/* ID Selector */
+#copyright {
+    font-family: serif; 
+    font-style: italic; 
+}
+
+/* Color Styles */
+h1, footer {
+    background-color: rgb(65, 132, 42); 
+    color: #eee;
+}
+
+nav a {
+    color: rgb(35, 102, 12); 
+    text-decoration: none; 
+}
+
+/* Descendant Selector */
+footer nav a {
+    color: #eee; 
+}
+
+/* Text Styles */
+h1 {
+    line-height: 400%; 
+}
+
+h2, h3, dt, nav a {
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+}
+
+h1, nav, #copyright {
+    text-align: center; 
+}
+
+nav a {
+    text-decoration: none; 
+}
+
+

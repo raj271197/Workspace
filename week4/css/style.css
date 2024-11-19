@@ -1,0 +1,41 @@
+body{
+    background-color: lightblue;
+}
+#wrapper{
+   width: 80%;
+   margin-left: auto;
+   margin-right: auto; 
+   border:1px solid black;
+   border-radius: 30px;
+   box-shadow: 20px 10px 5px yellow;
+   background-image: radial-gradient(circle,red 5%,yellow 15%, skyblue);
+
+}
+header {
+    background-color: grey;
+    padding: 20px 30px;
+    border: 2px solid blue;
+    border-radius: 30px ;
+}
+h2{
+    background-color: blue;
+    text-align: center;
+}
+p{
+    text-indent: 20px;
+}
+.bold
+{
+    font-weight: bold;
+
+}
+.red
+{
+    color: red;
+}
+.bold1
+{
+    font-weight: bold;
+    font-style: italic;
+
+}
