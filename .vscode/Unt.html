@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 7: HTML and CSS Basics</title>
+    <style>
+        /* CSS for styling */
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-size: 2em;
+            color: #333;
+        }
+        p {
+            font-size: 1em;
+            line-height: 1.5;
+        }
+        ul li {
+            padding: 5px;
+            background-color: #ddd;
+            margin-bottom: 5px;
+            list-style-type: none;
+        }
+        button {
+            margin: 10px 0;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            background-color: #007BFF;
+            color: #fff;
+            font-size: 1em;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <!-- HTML content -->
+    <h1>Welcome to HTML and CSS Basics</h1>
+    <p>This is a simple webpage designed to learn the basics of HTML, CSS, and JavaScript.</p>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+    <button id="changeBgButton">Change Background</button>
+    <button id="addItemButton">Add Item</button>
+
+    <!-- JavaScript -->
+    <script>
+        // Function to change the background color
+        function changeBackground() {
+            document.body.style.backgroundColor = "#c0c0c0";
+        }
+
+        // Function to add a new item to the list
+        function addItem() {
+            const ul = document.querySelector("ul");
+            const newItem = document.createElement("li");
+            newItem.textContent = "New Item";
+            ul.appendChild(newItem);
+        }
+
+        // Add event listeners to buttons
+        document.getElementById("changeBgButton").addEventListener("click", changeBackground);
+        document.getElementById("addItemButton").addEventListener("click", addItem);
+    </script>
+</body>
+</html>

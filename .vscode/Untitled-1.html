@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 7: HTML and CSS Basics</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            font-size: 2em;
+            color: #333;
+        }
+        p {
+            font-size: 1em;
+            line-height: 1.5;
+        }
+        li {
+            padding: 5px;
+            background-color: #ddd;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Welcome to HTML and CSS Basics</h1>
+
+    <p>This is a simple page to demonstrate the basics of HTML and CSS.</p>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+    <button id="change-bg-btn">Change Background</button>
+    <button id="add-item-btn">Add Item</button>
+
+    <script>
+        // Task 4: Change Background
+        document.getElementById('change-bg-btn').addEventListener('click', function() {
+            document.body.style.backgroundColor = '#c0c0c0'; // Changes background color
+        });
+
+        // Task 5: Add Item
+        document.getElementById('add-item-btn').addEventListener('click', function() {
+            var newItem = document.createElement('li');  // Creates a new list item
+            newItem.textContent = 'New Item';  // Sets text for the new item
+            document.querySelector('ul').appendChild(newItem);  // Adds the new item to the list
+        });
+    </script>
+
+</body>
+</html>
+ss
